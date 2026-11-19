@@ -1,0 +1,20 @@
+Completed Task 2 of my Data Science internship with @SWYNEX Technologies! 📊
+
+I ran exploratory data analysis on the IBM Telco Customer Churn dataset (7,043 customers) I prepared in Task 1, and went beyond charts: every finding is tested for statistical significance and checked after controlling for confounders.
+
+What stood out:
+🔹 One segment (month-to-month + fiber optic + electronic check) is 19% of customers but 42% of all churners and 49% of lost monthly revenue
+🔹 Churn hits 53% in the first 6 months of tenure, then falls below 10% after 4 years
+🔹 Fiber optic customers have 66% higher churn odds than DSL, even after controlling for contract, tenure and price
+🔹 Online security and tech support go with ~35% lower churn odds
+🔹 Gender and partner status add nothing once other features are controlled
+
+A plain logistic regression on these features reaches ROC-AUC 0.84, so the signal is real and ready for modelling.
+
+Deliverables: tested helper code, an executive summary, 13 charts and recommendations for the business and the modelling stage.
+
+Biggest learning: a raw gap is only a hypothesis until you check whether another variable explains it. The partner effect looked big and disappeared once I controlled for it.
+
+GitHub: <your repo link>
+
+#SWYNEX #Internship #DataScience #EDA #Python #Statistics #CustomerChurn
